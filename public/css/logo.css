@@ -1,0 +1,21 @@
+.nextwave-logo {
+	letter-spacing: 0.1em;
+}
+
+.nextwave-logo i {
+	font-style: normal;
+}
+
+.nextwave-logo b {
+	font-weight: 200;
+}
+
+.nextwave-logo .next {
+	color: rgba(20, 50, 100, 0.9);
+	font-weight: 400;
+}
+
+.nextwave-logo .wave {
+	color: rgba(20, 50, 100, 0.8);
+	font-weight: 200;
+}

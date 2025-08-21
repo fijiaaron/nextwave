@@ -1,0 +1,83 @@
+/* header.css */
+
+header {
+	margin: 0;
+	padding: 0;
+}
+
+header > * {
+	padding: 0 2rem;
+}
+
+header a {
+	display: inline-block;
+	color: #335577;
+	text-decoration: none;
+	font-family: system-ui, sans-serif;
+	
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+header a:hover {
+	color: #5588cc;
+	text-decoration: underline;
+}
+
+header #top-notice {
+	background-color: rgba(120, 220, 120, 0.8);
+	
+	font-family: system-ui, sans-serif;
+	font-size: 0.8rem;
+	
+	display: flex;
+	flex-direction: row;
+	align-items: bottom;
+	justify-content: center;
+
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid green;
+}
+
+header #top-notice a {
+	color: #336633;
+	text-decoration: none;
+}
+
+header #top-notice a:hover {
+	color: #006633;
+	text-decoration: underline;
+}
+
+header #main-header {
+
+	padding-top: 0.5rem;
+	padding-bottom: 1.5rem;
+
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header #main-header #header-logo-container {
+	/* don't grow or shrink */
+	flex: 0 0 auto;
+}
+
+header #main-header #header-menu-container {
+	margin: 0;
+	padding: 0;
+	
+	flex: 1; 
+	text-align: right;
+	/* grow to take all remaining space */
+}
+
+header #secondary-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

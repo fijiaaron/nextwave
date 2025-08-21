@@ -1,0 +1,31 @@
+/* menu.css */
+
+#menu-small {
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+#menu-small #toggle {
+	font-size: 3rem;
+	font-weight: 400;
+	
+	color: black;
+	text-decoration: none;
+}
+
+#menu-small a:hover {
+	color: #357;
+	text-decoration: none;
+}
+
+#menu-large {
+	display: block;
+	text-align: right;
+}
+
+#menu-large > a {
+	font-size: 0.9rem;
+	font-weight: 400;
+	padding-left: 2em;
+	text-transform: uppercase;
+}

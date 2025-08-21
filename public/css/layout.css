@@ -1,0 +1,14 @@
+/* layout.css */
+
+@media screen and (max-width: 799px) {
+	body { border: 4px solid red; }
+	#menu-small { display: inline-block; }
+	#menu-large { display: none; }
+}
+
+@media screen and (min-width: 800px) {
+	body { border: 4px solid green; }
+	#menu-small { display: none; }
+	#menu-large { display: inline-block; }
+}
+
