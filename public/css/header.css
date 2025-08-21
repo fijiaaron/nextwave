@@ -3,7 +3,7 @@
 header {
 	margin: 0;
 	padding: 0;
-	margin-bottom: 2rem;
+	margin-bottom: 2cqmin;
 }
 
 header > * {
@@ -53,9 +53,6 @@ header #top-notice a:hover {
 
 header #main-header {
 
-	padding-top: 0.5rem;
-	padding-bottom: 1.5rem;
-
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -67,13 +64,10 @@ header #main-header #header-logo-container {
 	flex: 0 0 auto;
 }
 
-header #main-header #header-menu-container {
-	margin: 0;
-	padding: 0;
-	
+header #main-header #header-menu-container {	
+	/* grow to take all remaining space */
 	flex: 1; 
 	text-align: right;
-	/* grow to take all remaining space */
 }
 
 header #secondary-header {

@@ -2,8 +2,12 @@
 
 @media screen and (max-width: 799px) {
 	body { border: 4px solid red; }
-	#menu-small { display: inline-block; }
+	#menu-small { display: flex; }
 	#menu-large { display: none; }
+
+	header {
+		font-size:16px;
+	}
 }
 
 @media screen and (min-width: 800px) {

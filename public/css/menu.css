@@ -3,18 +3,33 @@
 #menu-small {
 	font-size: 0.9rem;
 	font-weight: 400;
+
+	/* @HACK: that's a weird way to right align */
+	flex-direction: column;
+	vertical-align: top;
 }
 
-#menu-small #toggle {
+#menu-small #menu-button {
+	font-size: 3rem;
+}
+
+/* the hamburger menu button */
+#menu-small .trigram {
 	font-size: 3rem;
 	font-weight: 400;
-	
-	color: black;
+
+	/* @HACK balance space at the top which makes it not centered */
+	display: inline-block;
+	padding-bottom: 0.25em; 
+}
+
+#menu-small a {
+	color: #123;
 	text-decoration: none;
 }
 
 #menu-small a:hover {
-	color: #357;
+	color: #369;
 	text-decoration: none;
 }
 
