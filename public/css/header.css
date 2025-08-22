@@ -26,7 +26,8 @@ header a:hover {
 }
 
 header#top-header {
-	background-color: rgba(120, 220, 120, 0.8);
+	
+	background-color: rgba(120, 220, 120, 0.5);
 	
 	font-family: system-ui, sans-serif;
 	font-size: 0.8rem;
@@ -38,7 +39,9 @@ header#top-header {
 
 	padding-top: 0.4em;
 	padding-bottom: 0.4em;
-	border-bottom: 1px solid green;
+	
+	border-top: 0.01rem solid #246;
+	border-bottom: 0.01rem solid #246;
 }
 
 header#top-header a {
