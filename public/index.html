@@ -20,18 +20,18 @@
 		</script>
 	</head>
 	<body>
-		<header>
-			<!-- start #top-notice -->
+
+		<!-- start #top-header -->
+		<header id="top-header">
 			<!-- @TODO: display after scrolling -->
-			<div id="top-notice">
 				<a href="/workshops/ai-strategies-for-qa">
 					Sign up now for the AI Strategies for QA workshop on <b>Sept 30, 2025</b>
 				</a>
-			</div>
-			<!-- end #top offer -->
-
-			<!-- start #main-header -->
-			<div id="main-header">
+		</header>
+		<!-- end #top header -->
+		
+		<!-- start #main-header -->
+		<header id="main-header">
 				
 				<!-- start #header-logo-container -->
 				<div id="header-logo-container">
@@ -48,7 +48,10 @@
 				<div id="header-menu-container">
 					<nav id="menu-small">
 						<a id="menu-button" name="menu-button" href="#menu" onclick="toggleMenu();">
-							<span class="trigram">☵</span></a>
+							<!-- <span class="trigram">☵</span></a> -->
+							<span class="trigram">☲</span></a>
+							<!-- <span class="trigram">☰</span></a> -->
+							
 					</nav>
 					<nav id="menu-large">
 						<a name="About" href="/about-next-wave"> About </a>
@@ -57,21 +60,20 @@
 					</nav>
 				</div>
 				<!-- end #header-menu-container -->
-				 
-			</div>
-			<!-- end #main-header -->
 		
-			<!-- start #secondary-header -->
-			<div id="secondary-header">
-				<a name="QA Strategy" href="/qa-strategy"> QA Strategy </a>
-				<a name="Test Automation" href="/test-automation"> Test Automation </a>
-				<a name="Continuous Delivery" href="/continuous-delivery"> Continuous Delivery </a>
-				<a name="Cloud Test Environments" href="/cloud-test-environments"> Cloud Test Environments </a>
-			</div>
-			<!-- end #secondary-header -->
-
 		</header>
+		<!-- end #main-header -->
 		
+
+		<!-- start #secondary-header -->
+		<header id="secondary-header">
+			<a name="QA Strategy" href="/qa-strategy"> QA Strategy </a>
+			<a name="Test Automation" href="/test-automation"> Test Automation </a>
+			<a name="Continuous Delivery" href="/continuous-delivery"> Continuous Delivery </a>
+			<a name="Cloud Test Environments" href="/cloud-test-environments"> Cloud Test Environments </a>
+		</header>
+		<!-- end #secondary-header -->
+
 
 		<main>
 			<h2>
@@ -111,12 +113,12 @@
 
 
 			<div>
-				<img src="nextwave.png" align="middle" style="padding: 24px; border: 2px solid black; height: 400px"/>
+				<img src="nextwave.png" align="middle" style="padding: 24px; border: 2px solid black; width: 200px"/>
 				PNG
 			</div>
 
 			<div>
-				<img src="nextwave.svg" align="middle" style="padding: 24px; border: 2px solid black; height: 400px"/>
+				<img src="nextwave.svg" align="middle" style="padding: 24px; border: 2px solid black; width: 200px"/>
 				SVG
 			</div>
 

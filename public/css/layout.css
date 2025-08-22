@@ -1,18 +1,42 @@
 /* layout.css */
 
+/** small **/
 @media screen and (max-width: 799px) {
-	body { border: 4px solid red; }
-	#menu-small { display: flex; }
-	#menu-large { display: none; }
+	body { 
+		/* border: 2px solid red;  */
+	}
 
 	header {
 		font-size:16px;
 	}
+
+	header > * {
+		padding: 0rem 0.75rem;
+	}
+
+
+	body > main, footer {
+		padding: 1rem 0.75rem;
+	}
+
+	#menu-small { display: flex; }
+	#menu-large { display: none; }
+
+	header#secondary-header { 
+		display: none; 
+	}
 }
 
+/** large **/
 @media screen and (min-width: 800px) {
-	body { border: 4px solid green; }
+	body { 
+		/* border: 4px solid green;  */
+	}
+
+	body >  main, footer {
+		padding: 2rem 2rem;
+	}
+
 	#menu-small { display: none; }
 	#menu-large { display: inline-block; }
 }
-
